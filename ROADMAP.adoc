@@ -1,0 +1,9 @@
+= Roadmap
+
+0. Bootstrap
+1. Real prompt/article
+2. Independent review
+3. Revise
+4. Omelas
+5. MCP/Open WebUI
+6. KIOS platform

@@ -1,0 +1,3 @@
+= Prompt
+
+Replace with the governing declarative prompt. Treat as architectural source code.

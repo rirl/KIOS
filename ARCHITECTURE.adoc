@@ -1,0 +1,3 @@
+= Architecture
+
+Human Intent -> Declarative Prompt -> AI Execution -> Generated Artifact -> Human Review -> Canonical Knowledge -> Repository

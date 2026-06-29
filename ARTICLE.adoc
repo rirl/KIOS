@@ -1,0 +1,3 @@
+= Article
+
+Generated from PROMPT.adoc. Prefer improving the prompt before editing this document.

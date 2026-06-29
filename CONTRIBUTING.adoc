@@ -1,0 +1,3 @@
+= Contributing
+
+Branch -> edit PROMPT.adoc -> regenerate ARTICLE.adoc -> review -> PR -> merge.

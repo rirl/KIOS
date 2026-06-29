@@ -1,0 +1,3 @@
+= Provenance
+
+Capture human intent, AI collaboration, assumptions, review history and intellectual lineage.

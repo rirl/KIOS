@@ -1,0 +1,3 @@
+= Manifest
+
+This repository preserves governance artifacts, generated artifacts and their relationships.

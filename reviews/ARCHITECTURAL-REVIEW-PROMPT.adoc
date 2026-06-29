@@ -1,0 +1,3 @@
+= Architectural Review Prompt
+
+Infer the architecture from the repository. Distinguish observations, interpretations, hypotheses and recommendations. Critique independently.
