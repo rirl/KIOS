@@ -1,0 +1,40 @@
+= Bootstrap v0.2 Planning
+
+This document does not define Bootstrap v0.2.
+
+It records the evidence and reasoning that justify changes introduced into
+Bootstrap v0.2.
+
+Each proposed bootstrap change should be traceable to observations made during
+Bootstrap Validation Cycle 1.
+
+Bootstrap revisions are evidence-driven.
+
+Bootstrap evolution follows architectural discoveries rather than architectural
+preferences.
+
+What did Bootstrap Validation Cycle 1 teach us?
+
+== Candidate Bootstrap Improvements
+
+=== Vision as a First-Class Artifact
+
+Observation
+
+The original architectural vision and the governing specification evolved into
+distinct artifacts during Bootstrap Validation Cycle 1.
+
+Evidence
+
+* The original "Architecture as Governance" vision prompt served as the
+  architectural vision rather than the execution specification.
+* The governing specification became simpler once separated from the broader
+  architectural vision.
+
+Conclusion
+
+Vision should become a first-class architectural artifact.
+
+Bootstrap Change
+
+Introduce `VISION.adoc` as part of the canonical bootstrap.
