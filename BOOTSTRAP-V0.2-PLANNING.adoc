@@ -1,4 +1,6 @@
 = Bootstrap v0.2 Planning
+:toc:
+:sectnums:
 
 This document does not define Bootstrap v0.2.
 
@@ -13,7 +15,11 @@ Bootstrap revisions are evidence-driven.
 Bootstrap evolution follows architectural discoveries rather than architectural
 preferences.
 
+The governing question is:
+
+____
 What did Bootstrap Validation Cycle 1 teach us?
+____
 
 == Candidate Bootstrap Improvements
 
@@ -28,8 +34,8 @@ Evidence
 
 * The original "Architecture as Governance" vision prompt served as the
   architectural vision rather than the execution specification.
-* The governing specification became simpler once separated from the broader
-  architectural vision.
+* The governing specification became significantly simpler once separated from
+  the broader architectural vision.
 
 Conclusion
 
@@ -38,3 +44,120 @@ Vision should become a first-class architectural artifact.
 Bootstrap Change
 
 Introduce `VISION.adoc` as part of the canonical bootstrap.
+
+=== Shared Understanding as a First-Class Architectural Concern
+
+Observation
+
+During Bootstrap Validation Cycle 1, one participant recognized that they were
+successfully executing the collaborative process without yet understanding how
+the individual activities related to the architectural vision or to the larger
+community praxis.
+
+This revealed that successful execution of a collaborative process does not
+necessarily imply shared understanding of that process.
+
+Evidence
+
+During the validation cycle a participant observed:
+
+____
+"I think the AI is doing a good job of following the process, but I don't
+understand why we're doing what we're doing. I feel like I'm just following
+instructions without understanding the bigger picture."
+____
+
+Rather than continuing with the planned sequence of activities, the community
+paused the validation cycle to examine the observation itself.
+
+This reflection revealed that the methodology had successfully governed the
+creation of architectural artifacts while providing insufficient support for
+participants to internalize the architectural vision, the reasoning behind
+individual activities, and the relationship between those activities and the
+larger architectural purpose.
+
+Conclusion
+
+The first bootstrap validation cycle demonstrated that disciplined
+architectural artifacts alone are insufficient.
+
+A community of practice must also cultivate shared understanding.
+
+Architectural progress should not outpace participant understanding.
+
+The collaborative praxis therefore requires explicit mechanisms that help
+participants:
+
+* internalize the architectural vision,
+* understand the reasoning behind collaborative decisions,
+* recognize how individual activities contribute to the larger architectural
+  purpose,
+* periodically confirm that the community shares a common understanding before
+  architectural evolution continues, and
+* cultivate the ability to evaluate and improve the architecture together.
+
+The methodology must therefore govern not only the production of architectural
+artifacts but also the cultivation of architectural understanding.
+
+Bootstrap Change
+
+Introduce artifacts and practices that cultivate shared architectural
+understanding as a first-class concern of the community praxis.
+
+Possible additions to the canonical bootstrap include:
+
+* `VISION.adoc`
++
+A stable articulation of the architectural vision that provides enduring
+context for all subsequent artifacts.
+
+* Lessons Learned
++
+A governed mechanism for participants to articulate what they now understand
+that they did not understand before the current validation cycle.
+
+* Community Praxis Diagram
++
+A visual representation of the collaborative methodology showing how
+conversation, reflection, observations, evidence, lessons learned,
+architectural discoveries, warrant, and architectural evolution relate to one
+another.
+
+* Collaborative Process Guide
++
+A practical guide describing how participants engage in disciplined
+architectural learning and how the various architectural artifacts interact.
+
+* Methodological Disciplines
++
+A concise statement of the disciplines that define participation within the
+community of practice and govern collaborative architectural learning.
+
+* Reflection Prompts
++
+Structured questions asked at appropriate checkpoints during each validation
+cycle to ensure that architectural progress does not outpace participant
+understanding.
+
+These artifacts and practices exist to cultivate shared understanding rather
+than merely document architectural decisions.
+
+Rationale
+
+Knowledge may be preserved within a repository.
+
+Architectural warrant may be preserved through provenance, evidence, and Git
+history.
+
+Understanding, however, exists only within participants.
+
+A durable knowledge system therefore requires not only governed artifacts but
+also a governed community praxis that continually cultivates, evaluates, and
+renews shared understanding.
+
+Without shared understanding, coordinated activity risks becoming mechanical
+execution rather than disciplined architectural learning.
+
+The purpose of the community praxis is therefore not merely to produce better
+artifacts, but to cultivate participants capable of understanding, evaluating,
+and improving the architecture together.
