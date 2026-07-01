@@ -1,0 +1,47 @@
+= Bootstrap Prompt
+:toc:
+:sectnums:
+
+== Purpose
+
+This document preserves the declarative specification used to create the initial KIOS bootstrap repository.
+
+Unlike PROMPT.adoc, which governs the generation of a knowledge artifact, this document governs the creation of the repository itself.
+
+It is preserved as part of the repository's provenance so that the origin of the architecture remains reproducible and auditable.
+
+This document is intentionally immutable. Future revisions to the bootstrap should create new bootstrap artifacts rather than overwrite this one.
+
+== Bootstrap Objective
+
+Generate the smallest useful Git repository that demonstrates the core architectural principles behind KIOS.
+
+This repository is not a production implementation.
+
+It is a minimal, self-describing, self-demonstrating reference architecture showing how declarative governance can produce and preserve a canonical knowledge artifact through human–AI collaboration.
+
+The repository should itself be an example of the architectural philosophy it describes.
+
+== Design Philosophy
+
+The repository should demonstrate that:
+
+* Human intent can be expressed declaratively.
+* AI can execute that declarative specification.
+* The resulting knowledge artifact retains its provenance.
+* Human review remains an explicit part of governance.
+* The repository preserves both the product and the process.
+* Governance artifacts are first-class objects.
+* The repository itself is the smallest self-hosting demonstration of the architectural approach.
+
+== Repository Structure
+
+The bootstrap establishes the initial repository structure from which the first canonical knowledge object will be created.
+
+Subsequent evolution of the repository occurs through normal Git workflows, including branching, review, pull requests, and provenance preservation.
+
+== Historical Note
+
+This bootstrap establishes the initial conditions for the KIOS repository.
+
+The repository's first canonical knowledge object begins only after this bootstrap has been unpacked and the inaugural governing prompt (`PROMPT.adoc`) is introduced.

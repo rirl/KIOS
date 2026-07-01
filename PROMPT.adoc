@@ -1,3 +1,28 @@
-= Prompt
+= Inaugural Governing Specification
+:toc:
+:sectnums:
 
-Replace with the governing declarative prompt. Treat as architectural source code.
+== Purpose
+
+This document is the governing declarative specification for the first canonical knowledge object produced within the KIOS architecture.
+
+Unlike the bootstrap prompt, which governed the creation of the repository itself, this specification governs the creation of knowledge within the repository.
+
+Within KIOS, governing specifications are treated as architectural source code. Whenever practical, improvements to generated artifacts should first be expressed as improvements to this governing specification.
+
+== Governing Prompt
+
+Write a thoughtful, technically rigorous, but accessible article explaining the historical evolution of software architecture toward increasingly declarative systems.
+
+The article should:
+
+* explain how early software systems were largely imperative;
+* describe how operating systems, virtualization, cloud platforms, containers, orchestration systems, Infrastructure as Code, and AI progressively moved responsibility from procedural implementation into architectural abstraction;
+* explain that this trajectory extends beyond software toward the governance of complex human cultural organizations;
+* introduce KIOS (Knowledge Infrastructure and Organizational Systems) as an architectural hypothesis that explores governance as a first-class architectural capability;
+* discuss provenance, human–AI collaboration, and declarative governance as foundational architectural concepts;
+* conclude by presenting KIOS as an open architectural research project whose purpose is to investigate these ideas rather than claim they are already proven.
+
+The article should be technically accurate, historically grounded, intellectually honest, and accessible to experienced software engineers, architects, researchers, and technically curious readers.
+
+The article should avoid marketing language, avoid unsupported claims, distinguish observations from hypotheses, and clearly identify KIOS as an architectural research program under active investigation.

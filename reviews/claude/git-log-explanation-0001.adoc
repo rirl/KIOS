@@ -1,0 +1,72 @@
+= Git Log Explanation
+:toc:
+:toc-title: Contents
+:sectnums:
+
+== Overview
+
+This document explains the output of the following command:
+
+[source,shell]
+----
+git log --oneline
+----
+
+Output:
+
+[source]
+----
+745da11 (HEAD -> feature/first-canonical-knowledge-object, origin/feature/first-canonical-knowledge-object) feat: generate inaugural reference article
+dacffa4 feat: establish inaugural governing specification
+1f49a16 docs: preserve bootstrap provenance
+6bad608 (origin/main, origin/development, main, development) feat: initialize repository from canonical bootstrap
+6e5cad6 (tag: bootstrap-v0.1) chore: publish canonical bootstrap archive
+----
+
+Each line follows this pattern:
+
+----
+<short_hash> (<pointers>) <commit message>
+----
+
+== Commits (Oldest to Newest)
+
+=== `6e5cad6` — chore: publish canonical bootstrap archive
+
+The very first commit. It has been tagged `bootstrap-v0.1`, marking it as a named release or milestone — likely the initial archive of some foundational content.
+
+=== `6bad608` — feat: initialize repository from canonical bootstrap
+
+The second commit, where the repository was properly initialized.
+
+NOTE: Four branch pointers sit here — both the local branches (`main`, `development`) and their remote counterparts (`origin/main`, `origin/development`). This means none of those branches have moved since this point.
+
+=== `1f49a16` — docs: preserve bootstrap provenance
+
+The first commit on the feature branch. A documentation commit recording the origin and history (_provenance_) of the bootstrap process.
+
+=== `dacffa4` — feat: establish inaugural governing specification
+
+Added a foundational specification — likely a core rules or standards document for the project.
+
+=== `745da11` — feat: generate inaugural reference article
+
+The most recent commit. `HEAD` points here, meaning this is your current working position. Both the local feature branch and its remote tracking branch (`origin/feature/first-canonical-knowledge-object`) are in sync at this commit.
+
+== The Big Picture
+
+=== Branch Topology
+
+[source]
+----
+6e5cad6 ← 6bad608 ← 1f49a16 ← dacffa4 ← 745da11
+(tag)      (main &    \── feature/first-canonical-knowledge-object ──/
+            dev)
+----
+
+=== Key Observations
+
+* You are on the `feature/first-canonical-knowledge-object` branch, which **branched off `main`/`development`** after commit `6bad608`.
+* The feature branch has **3 commits** of its own (`1f49a16`, `dacffa4`, `745da11`).
+* The feature branch is **pushed and in sync** with its remote counterpart (`origin/feature/...`).
+* `main` and `development` have **not been updated** since the repository was initialized at `6bad608`.

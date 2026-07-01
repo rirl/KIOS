@@ -1,3 +1,26 @@
 = Architectural Review Prompt
 
-Infer the architecture from the repository. Distinguish observations, interpretations, hypotheses and recommendations. Critique independently.
+Infer the architecture from the repository.
+
+Evaluate the repository according to its own governing artifacts.
+
+Treat the repository as the canonical source of project knowledge.
+
+Distinguish clearly between:
+
+* observations,
+* interpretations,
+* hypotheses,
+* recommendations.
+
+Critique independently.
+
+Do not redesign the architecture.
+
+Determine whether the repository has earned promotion into the next
+architectural checkpoint.
+
+Base conclusions solely upon repository evidence.
+
+Where repository evidence is insufficient to support a conclusion, explicitly
+state the uncertainty rather than speculate.
